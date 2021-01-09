@@ -1,0 +1,72 @@
+
+
+
+.btn1, .btn2 {
+  height: 30px;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 80px;
+  background-color:#164776;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 375px;
+}
+
+.answer1, .answer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+
+.Table {
+    display: flex;
+    flex-direction: column;
+}
+
+.dore {
+    font-size: 30px;
+    color:#f8f8f8;
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+  }
+
+.btn {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    display: block;
+    background-color: hsl(224, 38%, 21%);
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    border-bottom: solid 1px white;
+  }
+
+ .btn::after{
+     content: ">";
+     float: right;
+     padding-top: 3px;
+ }
+
+ .result {
+     font-size: 30px;
+     color: white;
+     text-align: center;
+ }
+
+ .Board2 {
+    height: 662px;
+    margin: 0 auto;
+    width: 375px;
+    background-color: hsl(224, 38%, 21%);
+  }
+
+
